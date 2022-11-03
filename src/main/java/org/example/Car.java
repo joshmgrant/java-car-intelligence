@@ -3,16 +3,52 @@ package org.example;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
+import java.util.UUID;
 
 public class Car implements Serializable {
-    private static final long serialVersionUID = 123456789L;
-    public String manufacturer;
-    public String model;
-    public Short year;
+    private UUID serialVersionUID;
+    private String manufacturer;
+    private String model;
+    private Integer year;
+
+    public Car(String manufacturer, String model, Integer year){
+        serialVersionUID = UUID.randomUUID();
+        this.manufacturer = manufacturer;
+        this.model = model;
+        this.year = year;
+    }
+
+    public Car(){
+        this("", "", 0);
+    }
 
     private void readObject(ObjectInputStream ois) throws IOException, ClassNotFoundException {
-        manufacturer = (String) ois.readObject();
-        model = (String) ois.readObject();
-        year = (Short) ois.readObject();
+        setManufacturer((String) ois.readObject());
+        setModel((String) ois.readObject());
+        setYear((Integer) ois.readObject());
+    }
+
+    public void setManufacturer(String manufacturer) {
+        this.manufacturer = manufacturer;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setYear(Integer year) {
+        this.year = year;
+    }
+
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public Integer getYear() {
+        return year;
     }
 }

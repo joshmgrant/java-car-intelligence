@@ -5,15 +5,16 @@ import org.example.CarDataQuery;
 
 import java.sql.SQLException;
 
-public class CarQueryFuzzTest {
+public class CarInsertDataFuzzTest {
 
     @FuzzTest
-    public void fuzzDataByModel(FuzzedDataProvider data) {
-        CarDataQuery fixture = new CarDataQuery();
+    public void fuzzInsertData(FuzzedDataProvider data) {
+        CarDataQuery testDB = new CarDataQuery();
+        Car testCar = new Car(data.consumeString(100), data.consumeString(100), data.consumeInt());
 
         try {
-            fixture.connect();
-            fixture.getDataByModel(data.consumeAsciiString(100));
+            testDB.connect();
+            testDB.insertNewCar(testCar);
         } catch (SQLException e){
             throw new AssertionError("SQL Connection exception:" + e);
         }

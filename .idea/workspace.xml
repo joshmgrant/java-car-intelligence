@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6ee2793e-751d-42c5-95ee-1f171fc143f1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BookDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CarDeserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SQLUserOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CarDataQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BookDeserializerFuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookDeserializerFuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/H2SQLFuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/H2SQLFuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CarDataQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CarDataQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CarQueryFuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarQueryFuzzTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CarQueryFuzzTest">
+  <component name="RunManager" selected="JUnit.CarQueryFuzzTest.fuzzDataByModel">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="ComplexIntelligence" />
@@ -83,11 +81,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarQueryFuzzTest.myFuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarQueryFuzzTest.fuzzDataByModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ComplexIntelligence" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CarQueryFuzzTest" />
-      <option name="METHOD_NAME" value="myFuzzTest(com.code_intelligence.jazzer.api.FuzzedDataProvider)" />
+      <option name="METHOD_NAME" value="fuzzDataByModel(com.code_intelligence.jazzer.api.FuzzedDataProvider)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,15 +140,15 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.CarQueryFuzzTest" />
-      <item itemvalue="JUnit.CarQueryFuzzTest.myFuzzTest" />
+      <item itemvalue="JUnit.CarQueryFuzzTest.fuzzDataByModel" />
       <item itemvalue="JUnit.ComplexNumberFuzzTest" />
       <item itemvalue="JUnit.ComplexNumberUnitTest" />
       <item itemvalue="Maven.Maven build" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarQueryFuzzTest.fuzzDataByModel" />
         <item itemvalue="JUnit.CarQueryFuzzTest" />
-        <item itemvalue="JUnit.CarQueryFuzzTest.myFuzzTest" />
         <item itemvalue="JUnit.ComplexNumberUnitTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ComplexNumberFuzzTest" />
