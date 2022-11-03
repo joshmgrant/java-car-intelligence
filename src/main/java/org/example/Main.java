@@ -3,7 +3,8 @@ package org.example;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+
+    private static void full_program(){
         ComplexNumber complexNumber;
         Scanner scanner = new Scanner(System.in);
 
@@ -22,7 +23,15 @@ public class Main {
 
         System.out.println("Your complex number is: " + complexNumber.toString());
         System.out.print("The magnitude of your complex number is: " + complexNumber.getLength());
+    }
+    public static void main(String[] args) {
+//        full_program();
 
 
+        short i = 0;
+
+        for (i = 0; i < 1000; i++){
+            System.out.println("value: " + i);
+        }
     }
 }

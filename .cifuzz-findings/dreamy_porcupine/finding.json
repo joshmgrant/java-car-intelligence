@@ -1,0 +1,21 @@
+{
+  "name": "dreamy_porcupine",
+  "type": "WARNING",
+  "input_data": "Cgo=",
+  "logs": [
+    "Slow input: 908 seconds for processing",
+    "artifact_prefix='./'; Test unit written to ./slow-unit-71853c6197a6a7f222db0f1978c7cb232b87c5ee",
+    "Base64: Cgo="
+  ],
+  "details": "Slow input detected. Processing time: 908 s",
+  "more_details": {
+    "id": "Slow Input Detected",
+    "name": "Slow Input Detected",
+    "severity": {
+      "description": "LOW",
+      "score": 2
+    }
+  },
+  "InputFile": "./slow-unit-71853c6197a6a7f222db0f1978c7cb232b87c5ee",
+  "created_at": "2022-10-31T17:01:54.770418-04:00"
+}

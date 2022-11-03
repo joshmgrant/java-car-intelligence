@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class ComplexNumberUnitTest {
 
-    public ComplexNumber fixture;
+    private ComplexNumber fixture;
 
     @Test
     public void zeroConstructor(){
