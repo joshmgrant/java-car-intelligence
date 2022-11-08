@@ -1,6 +1,5 @@
 package org.example;
 
-import java.sql.SQLException;
 import java.util.Scanner;
 
 public class MainApp {
@@ -23,7 +22,7 @@ public class MainApp {
 
     private static Scanner scanner;
 
-    private static CarDataQuery db;
+    private static CarDatabase db;
 
     private static void processOption(String optionIn){
         switch (optionIn) {
@@ -109,7 +108,7 @@ public class MainApp {
 
     public static void main(String[] argv){
 
-       db = new CarDataQuery();
+       db = new CarDatabase();
        db.connect();
 
         scanner = new Scanner(System.in);

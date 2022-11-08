@@ -1,7 +1,6 @@
 import com.code_intelligence.jazzer.api.FuzzedDataProvider;
 import com.code_intelligence.jazzer.junit.FuzzTest;
-import org.example.Car;
-import org.example.CarDataQuery;
+import org.example.CarDatabase;
 
 import java.sql.SQLException;
 
@@ -9,7 +8,7 @@ public class CarQueryFuzzTest {
 
     @FuzzTest
     public void fuzzDataByModel(FuzzedDataProvider data) {
-        CarDataQuery fixture = new CarDataQuery();
+        CarDatabase fixture = new CarDatabase();
 
         try {
             fixture.connect();

@@ -5,10 +5,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import org.h2.jdbcx.JdbcDataSource;
 
-import javax.xml.transform.Result;
 
-
-public class CarDataQuery {
+public class CarDatabase {
     private Connection conn;
 
     public void connect()  {
