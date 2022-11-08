@@ -5,6 +5,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import org.h2.jdbcx.JdbcDataSource;
 
+import javax.xml.transform.Result;
+
 
 public class CarDataQuery {
     private Connection conn;
@@ -34,5 +36,12 @@ public class CarDataQuery {
         // will lead to a SQL injection
         String query = String.format("SELECT * FROM cars WHERE carModel='%s'", username);
         return conn.createStatement().executeQuery(query);
+    }
+
+    public String getVolkwagenData(String message) throws SQLException {
+        ResultSet temp;
+        String query = "SELECT * FROM cars where carModel = 'Volkwagen'";
+        temp = conn.createStatement().executeQuery(query);
+        return String.format("VW Results - %s: %s ", temp.toString(), message);
     }
 }
