@@ -11,20 +11,39 @@ import javax.xml.transform.Result;
 public class CarDataQuery {
     private Connection conn;
 
-    public void connect() throws SQLException {
+    public void connect()  {
         JdbcDataSource ds = new JdbcDataSource();
         ds.setURL("jdbc:h2:mem:database.db");
-        conn = ds.getConnection();
+        try {
+            conn = ds.getConnection();
 
-        // A dummy database is dynamically created
-        conn.createStatement().execute("CREATE TABLE IF NOT EXISTS cars (id IDENTITY PRIMARY KEY, carModel VARCHAR(50), manufacturer VARCHAR(50), carYear VARCHAR(50))");
-        conn.createStatement().execute("INSERT INTO cars (carModel, manufacturer, carYear) VALUES ('Jetta', 'Volkwagen', '2020')");
-        conn.createStatement().execute("INSERT INTO cars (carModel, manufacturer, carYear) VALUES ('i8', ' BMW', '2018')");
+            // A dummy database is dynamically created
+            conn.createStatement().execute("CREATE TABLE IF NOT EXISTS cars (id IDENTITY PRIMARY KEY, carModel VARCHAR(50), manufacturer VARCHAR(50), carYear VARCHAR(50))");
+            conn.createStatement().execute("INSERT INTO cars (carModel, manufacturer, carYear) VALUES ('Jetta', 'Volkwagen', '2020')");
+            conn.createStatement().execute("INSERT INTO cars (carModel, manufacturer, carYear) VALUES ('i8', ' BMW', '2018')");
+        } catch (SQLException e){
+            e.printStackTrace();
+        }
     }
 
-    public ResultSet insertNewCar(Car car) throws SQLException {
-        String query = String.format("INSERT INTO cars (carModel, manufacturer, carYear) VALUES (%s, %s, %s)", car.getModel(), car.getManufacturer(), car.getYear().toString());
-        return conn.createStatement().executeQuery(query);
+    public ResultSet insertNewCar(Car car) {
+        try {
+            String query = String.format("INSERT INTO cars (carModel, manufacturer, carYear) VALUES (%s, %s, %s)", car.getModel(), car.getManufacturer(), car.getYear().toString());
+            return conn.createStatement().executeQuery(query);
+        } catch (SQLException e){
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public ResultSet readAllData() {
+        String query = "SELECT * from cars";
+        try {
+            return conn.createStatement().executeQuery(query);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     public ResultSet getDataByModel(String username) throws SQLException {

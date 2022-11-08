@@ -22,6 +22,11 @@ public class Car implements Serializable {
         this("", "", 0);
     }
 
+    @Override
+    public String toString(){
+        return String.format("%s,%s,%s", manufacturer, model, year.toString());
+    }
+
     private void readObject(ObjectInputStream ois) throws IOException, ClassNotFoundException {
         setManufacturer((String) ois.readObject());
         setModel((String) ois.readObject());
