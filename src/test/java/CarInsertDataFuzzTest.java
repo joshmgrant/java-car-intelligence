@@ -8,16 +8,12 @@ import java.sql.SQLException;
 public class CarInsertDataFuzzTest {
 
     @FuzzTest
-    public void fuzzInsertData(FuzzedDataProvider data) {
+    public void fuzzInsertData(FuzzedDataProvider data) throws SQLException {
         CarDatabase testDB = new CarDatabase();
         Car testCar = new Car(data.consumeString(100), data.consumeString(100), data.consumeInt());
 
-        try {
-            testDB.connect();
-            testDB.insertNewCar(testCar);
-        } catch (SQLException e){
-            throw new AssertionError("SQL Connection exception:" + e);
-        }
+        testDB.connect();
+        testDB.insertNewCar(testCar);
 
     }
 }
