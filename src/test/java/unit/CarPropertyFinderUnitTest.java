@@ -1,3 +1,5 @@
+package unit;
+
 import org.example.CarPropertyFinder;
 import org.junit.Assert;
 import org.junit.Before;
@@ -37,6 +39,25 @@ public class CarPropertyFinderUnitTest {
         CarPropertyFinder fixture = new CarPropertyFinder(validCar);
 
         Assert.assertFalse(fixture.isClassic());
+    }
+
+     // example of fuzzing
+    // negative testing/assertions
+    // security testing
+    @FuzzTest
+    public void roadSerializerTest(FuzzedDataProvider data){
+        // automatically generated inputs by CIFUZZ
+        initializedRoad.deserialize(data.consumeBytes());
+
+        // test that exception is thrown/not thrown as needed
+        Integer actual;
+
+        Assert.assertTrue(actual > 0.0);
+        Assert.assertEquals(""); // OOM never happes
+        Assert.assertEquals(); //
+        // fuzzing as negative testing
+        // assert not null for inputs
+        // assert no IOException, StackOverlflowException
     }
 
 }
