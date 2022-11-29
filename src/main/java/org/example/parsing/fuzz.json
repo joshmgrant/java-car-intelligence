@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "normalized": [
+      {
+        "from": "fuzz",
+        "to": "Fuzz"
+      }
+    ],
+    "pages": {
+      "1830554": {
+        "pageid": 1830554,
+        "ns": 0,
+        "title": "Fuzz",
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2022-11-02T06:30:20Z",
+        "lastrevid": 1065895706,
+        "length": 1576
+      }
+    }
+  }
+}

@@ -1,5 +1,3 @@
-package unit;
-
 import org.example.CarPropertyFinder;
 import org.junit.Assert;
 import org.junit.Before;

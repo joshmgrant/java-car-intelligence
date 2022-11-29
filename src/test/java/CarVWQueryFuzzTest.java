@@ -1,23 +1,19 @@
-package fuzz;
-
 import com.code_intelligence.jazzer.api.FuzzedDataProvider;
 import com.code_intelligence.jazzer.junit.FuzzTest;
 import org.example.CarDatabase;
 
 import java.sql.SQLException;
 
-public class CarQueryFuzzTest {
-
+class CarVWQueryFuzzTest {
     @FuzzTest
-    public void fuzzDataByModel(FuzzedDataProvider data) {
+    void myFuzzTest(FuzzedDataProvider data) {
         CarDatabase fixture = new CarDatabase();
 
         try {
             fixture.connect();
-            fixture.getDataByModel(data.consumeAsciiString(100));
+            fixture.getVolkwagenData("test message");
         } catch (SQLException e){
             throw new AssertionError("SQL Connection exception:" + e);
         }
-
     }
 }

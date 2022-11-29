@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee2793e-751d-42c5-95ee-1f171fc143f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExploreMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parsing/fuzz.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Log4JFuzzerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CarDeserializerFuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fuzz/CarDeserializerFuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CarInsertDataFuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fuzz/CarInsertDataFuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CarPropertyFinderUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/CarPropertyFinderUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CarQueryFuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fuzz/CarQueryFuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fuzz/CarDeserializerFuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarDeserializerFuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fuzz/CarInsertDataFuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarInsertDataFuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fuzz/CarQueryFuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarQueryFuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fuzz/CarVWQueryFuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarVWQueryFuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fuzz/MyClassFuzzTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyClassFuzzTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fuzz/cifuzz.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/CarPropertyFinderUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarPropertyFinderUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +64,9 @@
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Shell Script.Run Fuzz Test">
     <configuration name="ExploreMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -89,8 +97,8 @@
     </configuration>
     <configuration name="CarPropertyFinderUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ComplexIntelligence" />
-      <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.CarPropertyFinderUnitTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarPropertyFinderUnitTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,8 +106,8 @@
     </configuration>
     <configuration name="CarPropertyFinderUnitTest.validateTransmissionType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ComplexIntelligence" />
-      <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.CarPropertyFinderUnitTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarPropertyFinderUnitTest" />
       <option name="METHOD_NAME" value="validateTransmissionType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -108,8 +116,8 @@
     </configuration>
     <configuration name="CarVWQueryFuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ComplexIntelligence" />
-      <option name="PACKAGE_NAME" value="fuzz" />
-      <option name="MAIN_CLASS_NAME" value="fuzz.CarVWQueryFuzzTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarVWQueryFuzzTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
