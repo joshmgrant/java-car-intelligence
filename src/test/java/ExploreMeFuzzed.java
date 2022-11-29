@@ -2,7 +2,7 @@ import com.code_intelligence.jazzer.api.FuzzedDataProvider;
 import com.code_intelligence.jazzer.junit.FuzzTest;
 import org.example.ExploreMe;
 
-class MyClassFuzzTest1 {
+class ExploreMeFuzzed {
     @FuzzTest
     void myFuzzTest(FuzzedDataProvider data) {
        int a = data.consumeInt();
