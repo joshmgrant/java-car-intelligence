@@ -1,0 +1,39 @@
+{
+  "name": "flying_mammoth",
+  "type": "CRASH",
+  "input_data": "JwohQQ==",
+  "logs": [
+    "== Java Exception: com.code_intelligence.jazzer.api.FuzzerSecurityIssueHigh: SQL Injection",
+    "Injected query: SELECT * FROM cars WHERE carModel=''",
+    "!A'",
+    "",
+    "\tat com.code_intelligence.jazzer.sanitizers.SqlInjection.checkSqlExecute(SqlInjection.java:100)",
+    "\tat org.example.CarDataQuery.getDataByModel(CarDataQuery.java:31)",
+    "\tat CarQueryFuzzTest.myFuzzTest(CarQueryFuzzTest.java:15)",
+    "== libFuzzer crashing input ==",
+    "MS: 0 ; base unit: 0000000000000000000000000000000000000000",
+    "0x27,0xa,0x21,0x41,",
+    "'\\012!A",
+    "artifact_prefix='./'; Test unit written to ./crash-6c4a90b5371a1106dce6213fa0290d7e304162e1",
+    "Base64: JwohQQ=="
+  ],
+  "details": "Security Issue: SQL Injection",
+  "more_details": {
+    "name": "SQL Injection",
+    "severity": {
+      "description": "HIGH",
+      "score": 7
+    }
+  },
+  "InputFile": "./crash-6c4a90b5371a1106dce6213fa0290d7e304162e1",
+  "created_at": "2022-11-03T14:57:34.745579-04:00",
+  "stack_trace": [
+    {
+      "SourceFile": "com.code_intelligence.jazzer.sanitizers.SqlInjection",
+      "Line": 100,
+      "Column": 0,
+      "FrameNumber": 0,
+      "Function": "checkSqlExecute"
+    }
+  ]
+}
