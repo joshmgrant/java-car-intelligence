@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee2793e-751d-42c5-95ee-1f171fc143f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JacksonParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RoadLookupClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NameLookup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NameLookupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StackOverflowCycleSimple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExampleStackOverflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DistanceCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExploreMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ExploreMe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StackOverflowCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackOverflowCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StackOverflowRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackOverflowRecursion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.Run Fuzz Test">
+  <component name="RunManager" selected="JUnit.NameLookupTest">
     <configuration name="ExploreMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ExploreMe" />
       <module name="ComplexIntelligence" />
@@ -94,30 +92,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarPropertyFinderUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ComplexIntelligence" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CarPropertyFinderUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarPropertyFinderUnitTest.validateTransmissionType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ComplexIntelligence" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CarPropertyFinderUnitTest" />
-      <option name="METHOD_NAME" value="validateTransmissionType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CarVWQueryFuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ComplexIntelligence" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CarVWQueryFuzzTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameLookupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ComplexIntelligence" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NameLookupTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameLookupTest.basic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ComplexIntelligence" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NameLookupTest" />
+      <option name="METHOD_NAME" value="basic" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,19 +165,19 @@
     <list>
       <item itemvalue="Application.ExploreMe" />
       <item itemvalue="Application.MainApp" />
-      <item itemvalue="JUnit.CarPropertyFinderUnitTest" />
-      <item itemvalue="JUnit.CarPropertyFinderUnitTest.validateTransmissionType" />
+      <item itemvalue="JUnit.NameLookupTest" />
+      <item itemvalue="JUnit.NameLookupTest.basic" />
       <item itemvalue="JUnit.CarVWQueryFuzzTest" />
       <item itemvalue="Maven.Maven build" />
       <item itemvalue="Shell Script.Run Fuzz Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NameLookupTest" />
+        <item itemvalue="JUnit.NameLookupTest.basic" />
         <item itemvalue="Application.ExploreMe" />
         <item itemvalue="JUnit.CarVWQueryFuzzTest" />
         <item itemvalue="Application.MainApp" />
-        <item itemvalue="JUnit.CarPropertyFinderUnitTest" />
-        <item itemvalue="JUnit.CarPropertyFinderUnitTest.validateTransmissionType" />
       </list>
     </recent_temporary>
   </component>
