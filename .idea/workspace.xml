@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee2793e-751d-42c5-95ee-1f171fc143f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExampleStackOverflow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StackOverflowRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JacksonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RoadLookupClassifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CarPropertyFinderUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarPropertyFinderUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyClassFuzzTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExploreMeFuzzed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExampleStackOverflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DistanceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExploreMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ExploreMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StackOverflowCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackOverflowCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StackOverflowRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackOverflowRecursion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

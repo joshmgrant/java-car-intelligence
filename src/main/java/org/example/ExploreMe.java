@@ -2,6 +2,15 @@ package org.example;
 
 public class ExploreMe {
 
+    public Integer fibonacci(Integer n){
+        if (n == 1){
+            return 1;
+        }
+        else if (n == 0){
+            return 0;
+        }
+        return fibonacci(n-1);
+    }
 
     // Function with multiple paths that can be discovered by a fuzzer.
     public void exploreMe(int a, int b, String c) {

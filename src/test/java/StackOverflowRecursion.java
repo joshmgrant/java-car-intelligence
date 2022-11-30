@@ -1,11 +1,12 @@
 import com.code_intelligence.jazzer.api.FuzzedDataProvider;
 import com.code_intelligence.jazzer.junit.FuzzTest;
-import org.example.ExampleStackOverflow;
+import org.example.DistanceCalculator;
+import org.example.ExploreMe;
 
 class StackOverflowRecursion {
     @FuzzTest
     void myFuzzTest(FuzzedDataProvider data) {
-        ExampleStackOverflow underTest = new ExampleStackOverflow();
+        ExploreMe underTest = new ExploreMe();
 
         underTest.fibonacci(data.consumeInt());
     }

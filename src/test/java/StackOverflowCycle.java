@@ -1,12 +1,12 @@
 import com.code_intelligence.jazzer.api.FuzzedDataProvider;
 import com.code_intelligence.jazzer.junit.FuzzTest;
-import org.example.ExampleStackOverflow;
+import org.example.DistanceCalculator;
 
 class StackOverflowCycle {
     @FuzzTest
     void myFuzzTest(FuzzedDataProvider data) {
-        ExampleStackOverflow underTest = new ExampleStackOverflow();
+        DistanceCalculator underTest = new DistanceCalculator("401");
 
-        underTest.fuzzerTestOneInput(data.consumeAsciiString(10));
+        underTest.getRoadDistanceByLookup(data.consumeInt());
     }
 }
