@@ -10,12 +10,10 @@ public class NameLookup {
     }
 
     private String idToName(){
-       id = id.trim();
-       return nameLookup();
+       return id;
     }
 
     private String nameLookup(){
-        String name = idToName();
-        return name.toUpperCase();
+        return id.toUpperCase();
     }
 }

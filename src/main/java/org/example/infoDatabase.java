@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import org.h2.jdbcx.JdbcDataSource;
 
 
-public class CarDatabase {
+public class infoDatabase {
     private Connection conn;
 
     public void connect()  {
