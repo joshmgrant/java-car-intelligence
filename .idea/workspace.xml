@@ -5,7 +5,188 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee2793e-751d-42c5-95ee-1f171fc143f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MainAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/003901a3467fb692a975094c936cc2fcd30a0b38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/06258731d1c026f416a843aca928b0eb6c2708a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/070bd26d7cc8fcba32ef29da3ad625824c38d343" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/0aa48143a0299add8758734e520d942fecf390cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/0ea58184f93fd0bc1a61977f991e0bd8d81376c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/142acde71b12fc40cdd83e6a123c566bc8fef6ba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/1956346f2687140bf115090b5be95b19315c6410" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/2da6f45ca5db982d188b1e50a767c8e9204dc36c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/39527c59247a39d18ad48b9947ea738396a3bc47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/3c295b3b45bddb7b4160953298ef6f21fdbdc79e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/42099b4af021e53fd8fd4e056c2568d7c2e3ffa8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/55d3011080b448f1d5d5040d248f73c6f4184ab0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/5660112aa22593598f935d775b382159fd2c4198" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/71853c6197a6a7f222db0f1978c7cb232b87c5ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/7409372f8a34d13e88953a789b2c81e5e88d185c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/771e4ada1d0a4ed2c83619628262e8bd55858bf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/7d157d7c000ae27db146575c08ce30df893d3a64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/85e53271e14006f0265921d02d4d736cdc580b0b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/8bb007e5a37eeb03bbb884e12fd5e16e2b9bf964" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/9a78211436f6d425ec38f5c4e02270801f3524f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/9ac521e32f8e19473bc914e1af8ae423a6d8c122" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/a3b462350804ea4f7b83663e9c26bb93c3da5ec0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/a7c13e6fe60eee08b9aac00a095a9301ea1a9824" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/a9e2daa54221d18bdb526cd343ad3c3db10cff43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/adc83b19e793491b1c6ea0fd8b46cd9f32e592fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/e50c552d6e0d223acd1930246059490ab3ce0f32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/eb238d597ea9a86faede558958b1cb6a4b334eff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/f52815edb4bf4384e64b0256a58e2fe3b042d4cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarQueryFuzzTest/ffab3be0d310a0efe03a9af26ab614bc3aabadc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/05a79f06cf3f67f726dae68d18a2290f6c9a50c9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/067d5096f219c64b53bb1c7d5e3754285b565a47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/0732132a7bc9f5fba4b9f2706ff9bb19e3f7ddc8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/07608886b2de9e6d9b3c9786777d20cc2e060455" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/0af20d733c34693131b1fe01e05384e4cf295c3e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/1360db1e71a8973dfeb18cd1a19ab19a571c6d9b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/13764851baaed7fab5528f9079901d37ea82fa4c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/13fbd79c3d390e5d6585a21e11ff5ec1970cff0c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/147d7b358aa809d99ed8206d3c81d4f1b5d06298" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/152d5697cf81b4dbd192fda72b44141f6d8606b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/1c8fa4c2ae18e072b65fbc6c85e273094998bfb0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/2116f862439e10fb20764d907bc2c663bfa71dc3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/265cfbceb813d1c8445e7bed29dfc21f30d5d0d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/2770849d819237e49448d3a5dcc42ed1331d5140" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/27f57cb359a8f86acf4af811c47a6380b4bb4209" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/28d2cc405aa3584305e5d31abc2ad46ec088bb98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/293aa066d112a3ae1a86900044950f4eaa0b188d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/2ed230220f5ec7e9a8d1882469ccc15a24f283a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/2f3fb37d1e16da3821366b12aa306fef1067ed7a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/3419b99c7c2b5aac429f913b7f9723425f0e698b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/356a192b7913b04c54574d18c28d46e6395428ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/3bc15c8aae3e4124dd409035f32ea2fd6835efc9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/3d714dd3e8e77a697ef557e85ed2b014a96328c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/3fa5bfd93317ad25772680071d5ac3259cd2384f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/43ca7f3f42783a26c017d4eaa3b5e922f94d45c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/4b625c7663dea770f47837e5f1ccb3419ef3152b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/4fb8cfeaaac80a1c829b22a43089ef470bcfe5b8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/4fee4374fe6463766aa54b7d1f240518c5a1a904" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/5270008097687f8ed302414ea1d10a82e603037c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/529774f16b300094211ecfd7ea8ce3bd664f6f19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/590e75aeee9966d04e5a299ef8bbced4fdbdd99d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/5a0c368cde981d8bbdf82529629defe4a60ba3e8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/5b5d362332b437687470f1883641668edf46c34e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/5ba93c9db0cff93f52b521d7420e43f6eda2784f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/5d1be7e9dda1ee8896be5b7e34a85ee16452a7b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/5e77c7022a7ae546c62ec390fa9063602b81350f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/607f202bf1ce8f7aa18b058a4da815e5a224b2e4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/62a6c840b59f0e3358eeeceabb007e3acc3148d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/640045a2b79d8773eaab9af9b5340b14f4057150" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/6ba6c0a632d9ce6cdc5539189a855a018d570681" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/6c92fdb20b97b05d7ff74640f02a01ad2a8f3a6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/6e4def60fb68518d57d761fdf2a130169fc785ba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/6ef6cc5a76142eaa5dd6eb94d0d8a74d970c9f1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/6fba107427aba9fd55d6d5a2fcb32d51447c9f7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/70d25610f0607070146dd436c8f80750197aefaf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/71853c6197a6a7f222db0f1978c7cb232b87c5ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/7329f2329027373ec8ff04792152eb3e0eba5ecf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/79190827d1c0c581737ad564bffdee8d0dea1809" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/7944b19abdd5b7e76d8300238a87eb80d82bb52b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/797be9c30173bb97d7b26fac3e22af2ea3f81085" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/7bc95c3a676b3e88ed5b953d0dcfec8279edd5f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/7c38f725162c32f854bb77f7a29e7648e440320a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/7cf0469c819ec1c2b0f68f9cdcbb6449b374f21b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/7cf184f4c67ad58283ecb19349720b0cae756829" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/7e15bb5c01e7dd56499e37c634cf791d3a519aee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/7f36a9ee52fc0ab9abfde38258940658e3a29439" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/81fd9d4c9df5cb6063af70bc07378d5dfbba008a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/899383b151a8bde7bf196edcd68ee7ed4e2174cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/8c1e6ab4270792c51304ea06f47dc20ce51ba57b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/8d883f1577ca8c334b7c6d75ccb71209d71ced13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/97b56ce60e4af509e07d18dde26f2922498fbc71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/9b99593353a610c4bee0d6a94a01a3296080c0fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/9bda74b3d034782cabd9265269a5ad6b35bd8aad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/9be0e4c219213a6c8a4e8a9454ce535e9232d106" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/9daad1155ce10d30c33c6653def9798c918de0eb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/9ddaf569f2aa86b07ab722decaf3314daaf2c077" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/9f6a9759b162b9e20b94cc65271484408867811a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/a14d9cbf0c4d82f36de441d7344fe53754b9f097" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/a4269b96666c76907e472b3a1e50b09a449e1266" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/a42c6cf1de3abfdea9b95f34687cbbe92b9a7383" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/a495cb4e5959bf1522dbaf93e023380408914dfa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/a6875b5b5f29d4d13aef12c8e107d59c6e82557f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/a7ee38bb7be4fc44198cb2685d9601dcf2b9f569" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/a979ef10cc6f6a36df6b8a323307ee3bb2e2db9c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/aba27efd84167f9a5ca90f38bf9e2a35ebc6e9a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/ac2e619e5c25523115fbfed7e876755378471575" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/ad4eef2017881d0d0589426c40d1cabc4ff31680" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/adc83b19e793491b1c6ea0fd8b46cd9f32e592fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/b121d293b05198dd6de1842a9f836f7b422df018" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/b51a60734da64be0e618bacbea2865a8a7dcd669" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/bc38d510dbe5ea70b83d314d4c0579f9d85d64e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/bc6edece15a59448b448ca00ac9d7b27dbe963ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/bc8241bb7dc6d54db141c2b385059e338fcd0ca4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/bf8b4530d8d246dd74ac53a13471bba17941dff7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/c032adc1ff629c9b66f22749ad667e6beadf144b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/c107ac74d3ee2b04a07f0f644d70f211f30e5298" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/c1082c8d947ba9cb65046d6f38062983cd97a167" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/c23c09cfd43b8a8e63b3ae5b301decd9baca17dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/c4488af0c158e8c2832cb927cfb3ce534104cd1e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/c518d98e6471daf0b3e9fc092a5976539899e79b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/c5d2cbc53c779cc21194c2a0177670ecd4c4562e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/c6005ba866c51f2a40672853ce99dec066663936" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/c6d998fd04ab0ae59c6787ac9710bf6db2417a49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/c714cc5367f7592793bba0b9024c34cde763e153" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/c7639de8641dc12f675107b0ce6aee03e1f4ca46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/ca73ab65568cd125c2d27a22bbd9e863c10b675d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/ccf42a004ca555598a9a345745fb6730c4c9a879" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/ce48a91aa9dadc99b4065597ffeb87310f3cc07c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/d08f88df745fa7950b104e4a707a31cfce7b5841" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/d160e0986aca4714714a16f29ec605af90be704d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/d4db7398146d4854ec2077b65359b7ec10a26379" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/d503bd0c96ff67b1442c1dd849e576c9d44e0a7e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/d645a96f79bf74f659a285878ff7f1944d85f2d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/df58248c414f342c81e056b40bee12d17a08bf61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/e0d578ad4aeaadf112a9dcbb3c0231f0fa6c8d39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/e976e081f04318889245b78e6b0e4f24ac3a370b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/ebdc2288a14298f5f7adf08e069b39fc42cbd909" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/ec52b32dca0c0df819b5a316f9e8a9fc2c2329dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/ed7affb56b2c0362eb0fb81d1c526ed6e8c8a21b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/ee4d615ff8031b79ce731826dcd852a86d7a81c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/f0c957104bb1b80c9d125d9c8cbb3f06fbf2ab1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/f195c020a28dfc5f2fb6af256b524ddcd93756ed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/fb3c6e4de85bd9eae26fdc63e75f10a7f39e850e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/CarVWQueryFuzzTest/fd0d54e9ecae056781c6997df8caa6b68763a12f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/JacksonParserFuzzer/18f9367cc5ef5717fbc225158a35a28ae5ee5f3f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/JacksonParserFuzzer/adc83b19e793491b1c6ea0fd8b46cd9f32e592fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/JacksonParserFuzzer/f000f33f86bed42d20b02f4f94decf1b3b162f74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/StackOverflowRecursion/ab461f6b8a6842a473257a2561c1fbdf91bdfe77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/fuzz.MyClassFuzzTest1/4be4bd2c646f333e3ecc5f6d8fa2dd926b816a66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/fuzz.MyClassFuzzTest1/dcb4cf26200b5d2f446fd3006559124359eb19bd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/fuzz.MyClassFuzzTest1/e9d59926bcb60a4e62043cdafe18c59d3bac223a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-corpus/fuzz.MyClassFuzzTest1/ea3cdcd21556cb7f0f6fb30b5311db118be8ecf6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/flying_mammoth/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/flying_mammoth/crashing-input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/flying_mammoth/finding.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/flying_worm/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/flying_worm/crashing-input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/flying_worm/finding.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/nice_kouprey/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/nice_kouprey/crashing-input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/nice_kouprey/finding.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/nice_labrador/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/nice_labrador/crashing-input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/nice_labrador/finding.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/pedantic_cow/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/pedantic_cow/crashing-input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/pedantic_cow/finding.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/rowdy_eagle/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/rowdy_eagle/crashing-input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/rowdy_eagle/finding.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/trustworthy_anteater/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/trustworthy_anteater/crashing-input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/trustworthy_anteater/finding.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/vibrant_cheetah/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/vibrant_cheetah/crashing-input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/vibrant_cheetah/finding.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/youthful_wolf/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/youthful_wolf/crashing-input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/youthful_wolf/finding.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/zooming_frog/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/zooming_frog/crashing-input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cifuzz-findings/zooming_frog/finding.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CarDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/infoDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MainApp.java" afterDir="false" />
@@ -23,6 +204,11 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/StackOverflowCycle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StackOverflowCycleSimple.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StackOverflowRecursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/StackOverflowCycleInputs/nice_labrador" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/StackOverflowCycleInputs/rowdy_eagle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/StackOverflowCycleInputs/zooming_frog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/StackOverflowFuzzerInputs/zooming_frog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/StackOverflowRecursionInputs/flying_worm" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +265,7 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+      <recent name="org.example" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example" />
